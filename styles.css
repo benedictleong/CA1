@@ -9,7 +9,9 @@ body > header > nav > ul {
     list-style-type: none;
     columns: 3 ;
     font-size: 1.5em;
-    padding-left: 2em;}
+    padding-left: 2em;
+    height: 3em;}
+    
 a {
 	color: rgba(0, 255, 85, 0.322);
     text-decoration: none;
@@ -33,9 +35,29 @@ a:hover, a:active {
 }
 body {
     background-image: url(https://media.istockphoto.com/id/1257888048/vector/earth-day-doodles-seamless-pattern-background-hand-drawn-of-earth-day-ecology-go-green-clean.jpg?s=612x612&w=0&k=20&c=5I2FVSL6_gj_2hK9HVgGz9YtT2AOmdqPKN5ZQO594ok=);
+}
+p {
+    font-size: 1.5em;
+}
+.body{
+    position: relative;
+}
+.body:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+    background-image: url(https://t3.ftcdn.net/jpg/01/91/95/30/360_F_191953033_gehQATeDoh5z6PyRDbeKyBZuS83CjMEF.jpg);
     background-position: bottom;
     background-repeat: repeat;
     background-size: auto;
+}
+.body-image {
+    position: relative;
 }
 .center {
     display: block;
