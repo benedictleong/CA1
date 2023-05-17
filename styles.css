@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+body > header > nav > ul {
+	display: block;
+	width: 100%;
+	background-color: rgb(0, 31, 71);
+	height: 100%;
+    list-style-type: none;
+    columns: 3 ;
+    font-size: 1.5em;
+    padding-left: 2em;}
+a {
+	color: rgba(0, 255, 85, 0.322);
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+a:visited {
+	color: rgba(42, 226, 42, 0.322);
+}
+a:hover {
+	color: rgb(255, 255, 255);
+    background-color: rgb(0, 68, 255);
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover, a:active {
+	outline: 0;
+}
+body {
+    background-image: url(https://media.istockphoto.com/id/1257888048/vector/earth-day-doodles-seamless-pattern-background-hand-drawn-of-earth-day-ecology-go-green-clean.jpg?s=612x612&w=0&k=20&c=5I2FVSL6_gj_2hK9HVgGz9YtT2AOmdqPKN5ZQO594ok=);
+    background-position: bottom;
+    background-repeat: repeat;
+    background-size: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
