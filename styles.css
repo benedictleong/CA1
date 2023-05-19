@@ -14,6 +14,9 @@ body > header > nav > ul {
     height: 2em;
     padding-top: 2%;
     padding-bottom: 1%;
+    overflow: hidden;
+    font-family: inherit;
+    text-decoration: none;
 }
 a {
 	color: rgb(21, 255, 0);
@@ -26,8 +29,7 @@ a {
 a:visited {
 	color: rgb(21, 255, 0);
 }
-a:hover {
-	color: rgb(255, 255, 255);
+a:hove {
     background-color: rgb(0, 68, 255);
 }
 a:focus {
@@ -78,3 +80,58 @@ footer {
 	font-size: 1em;
     padding-top: 1%;
 }
+
+  /* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+  /* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 1.1em;
+    border: none;
+    outline: none;
+    color: rgb(21, 255, 0);
+    padding: 5px 16px;
+    padding-right: 200px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0;
+    padding-top: 2px;
+}
+
+  /* Add a red background color to navbar links on hover */
+.navbar, .dropbtn {
+    background-color: rgb(0, 68, 255);
+}
+
+  /* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f9f9f9;
+}
+
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
