@@ -16,7 +16,7 @@ body > header > nav > ul {
     padding-bottom: 1%;
 }
 a {
-	color: rgba(0, 255, 85, 0.322);
+	color: rgb(21, 255, 0);
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
@@ -24,7 +24,7 @@ a {
     height: 100%;
 }
 a:visited {
-	color: rgba(42, 226, 42, 0.322);
+	color: rgb(21, 255, 0);
 }
 a:hover {
 	color: rgb(255, 255, 255);
