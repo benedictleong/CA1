@@ -30,9 +30,6 @@ a {
 a:visited {
 	color: rgb(21, 255, 0);
 }
-a:hove {
-    background-color: rgb(0, 68, 255);
-}
 a:focus {
 	outline: thin dotted;
 }
@@ -92,7 +89,7 @@ body {
     background-image: url(main-background.png);
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 .body{
     position: relative;
@@ -119,6 +116,14 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+/*return to top button*/
+.return {
+    background-color: black;
+    border-radius: 12px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 /*closing footer*/
 footer {
