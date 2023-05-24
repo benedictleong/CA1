@@ -1,0 +1,7 @@
+GitHub repository link: https://github.com/benedictleong/CA1
+Features implemented:
+    1.Create linear or radial gradient
+    2.Add a background image
+    3.Apply a CSS filter
+    4.Create text or box shadow
+    5.Add a border to an element

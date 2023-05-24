@@ -1,10 +1,15 @@
 @charset "utf-8";
 
+h1 {
+    text-shadow: 2px 2px #0076d6;
+    border-style: dotted;
+    border-width: 0px 0px 3px;
+}
+
 /*navigation bar*/
 body > header > nav > ul {
 	display: inline-block;
 	width: 100%;
-	background-color: rgb(0, 31, 71);
 	height: 100%;
     list-style-type: none;
     columns: 3 ;
@@ -17,10 +22,11 @@ body > header > nav > ul {
     overflow: hidden;
     font-family: inherit;
     text-decoration: none;
+    background-image: linear-gradient(rgb(212, 0, 255), yellow);
 }
 /*navigation bar text and buttons*/
 a {
-	color: rgb(21, 255, 0);
+	color: rgb(0, 247, 255);
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
@@ -35,6 +41,7 @@ a:focus {
 }
 a:hover, a:active {
 	outline: 0;
+    filter: grayscale(100%);
 }
 /* The dropdown container */
 .dropdown {
