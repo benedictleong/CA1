@@ -34,7 +34,7 @@ a {
     height: 100%;
 }
 a:visited {
-	color: rgb(21, 255, 0);
+	color: rgb(0, 247, 255);
 }
 a:focus {
 	outline: thin dotted;
