@@ -306,3 +306,6 @@ body {
     }
 }
 
+section {
+    background-image: url(transparent.jpg);
+}
