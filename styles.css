@@ -10,19 +10,18 @@ h1 {
 body > header > nav > ul {
 	display: inline-block;
 	width: 100%;
-	height: 100%;
     list-style-type: none;
-    columns: 3 ;
+    columns: 3;
     font-size: 1.5em;
     padding-left: 10%;
     padding-right: 0%;
-    height: 2em;
-    padding-top: 2%;
+    height: 3em;
+    padding-top: 1%;
     padding-bottom: 1%;
     overflow: hidden;
     font-family: inherit;
     text-decoration: none;
-    background-image: linear-gradient(rgb(212, 0, 255), yellow);
+    background-image: linear-gradient(rgb(0, 60, 255), rgb(0, 255, 98));
 }
 /*navigation bar text and buttons*/
 a {
