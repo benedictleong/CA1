@@ -287,7 +287,17 @@ button .login-form-submit {
         bottom: 100%;
     }
 }
-
+/*events table*/
+table, th, td {
+    border: 1px solid gray;
+}
+table {
+    width: 100%;
+}
+/*contact us*/
+td a {
+    color: #0076d6;
+}
 /*closing footer*/
 footer {
 	clear: left;
