@@ -137,10 +137,10 @@ footer {
 	background-color: rgb(0, 31, 71);
 	color: white;
 	text-align:center;
-	vertical-align: middle;
 	height: 30px;
 	font-size: 1em;
     padding-top: 1%;
+    padding-bottom: 2%;
 }
 
 html {
@@ -153,12 +153,12 @@ body {
 }
 
 .login-box {
-    position: absolute;
-    top: 40em;
-    left: 60em;
+    position: sticky;
+    top: 50%;
+    left:40%;
     width: 400px;
     padding: 40px;
-    transform: translate(-50%, -50%);
+    transform: translae(-50%, -50%);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -304,8 +304,4 @@ body {
     50%, 100% {
         bottom: 100%;
     }
-}
-
-section {
-    background-image: url(transparent.jpg);
 }
