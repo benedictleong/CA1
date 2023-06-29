@@ -201,6 +201,9 @@ body {
     margin-top: 40px;
     letter-spacing: 4px;
 }
+section, a {
+    color: #03e9f4;
+}
 .login-box a:hover {
     background: #03e9f4;
     color: #fff;
@@ -213,6 +216,7 @@ body {
 }
 button .login-form-submit {
     color: #141e30;
+
 }
 /*submit button animation*/
 .login-box a span:nth-child(1) {
